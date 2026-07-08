@@ -9,7 +9,6 @@ export class LoginPage extends BasePage
    private readonly passwordInput: Locator;
    private readonly LoginButton: Locator;
    private readonly forgotPasswordLink: Locator;
-   private readonly logo: Locator;
    private readonly loginErrorMessage:Locator;
 
    //constructor...of the class: initializing the locators
@@ -20,7 +19,6 @@ export class LoginPage extends BasePage
         this.passwordInput = page.getByRole('textbox', {name: 'Password' });
         this.LoginButton = page.getByRole('button', { name: 'Login'});
         this.forgotPasswordLink = page.getByRole('link', { name: 'Forgotten Password'}).first();
-        this.logo = page.getByAltText('naveenopencart');
         this.loginErrorMessage = page.locator('.alert.alert-danger.alert-dismissible');
     
     };
