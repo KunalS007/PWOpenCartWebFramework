@@ -17,7 +17,7 @@ test('Registration page title test', async ({ registrationPage }) =>
     let registrationData = CsvHelper.readCSV('src/data/registrationdata.csv');
     for(let row of registrationData)
     {
-        test(`Registration test with csv - ${row.firstname} ${row.lastname}`, async ({ registrationPage }) => 
+        test(`@sanity Registration test with csv - ${row.firstname} ${row.lastname}`, async ({ registrationPage }) => 
         {
             await registrationPage.goToRegistrationPage();
             await registrationPage.doRegistration(

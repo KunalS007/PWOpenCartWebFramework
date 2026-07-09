@@ -21,7 +21,7 @@ test('Logout link visibility test', async ({ homePage }) =>
    
 });
 
-test('Headers count test', async ({ homePage }) =>
+test('@smoke Headers count test', async ({ homePage }) =>
 {
      let  allHeaders = await homePage.getHeadersCount();
      console.log(`Headers count: ${allHeaders.length}`);

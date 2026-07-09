@@ -22,7 +22,7 @@ test('Forgot Password link visibility test', async ({ loginPage }) =>
     expect(await loginPage.forgotPasswordLinkIsVisible()).toBeTruthy();
 });
 
-test('do login into web application test', async ({ loginPage, homePage, basePage }) =>
+test('@smoke do login into web application test', async ({ loginPage, homePage, basePage }) =>
 {
     await loginPage.doLogin(process.env.APP_USERNAME!, process.env.APP_PASSWORD!);
     expect(await homePage.isLogoutLinkVisible()).toBeTruthy();
@@ -34,7 +34,7 @@ test('do login into web application test', async ({ loginPage, homePage, basePag
 let testData = CsvHelper.readCSV('src/data/logindata.csv');
 for(let row of testData)
 {
-    test(`Invalid login test with - ${row.username} and ${row.password}`, async({loginPage}) =>
+    test(`@sanity Invalid login test with - ${row.username} and ${row.password}`, async({loginPage}) =>
     {
         await loginPage.doLogin(row.username, row.password);
         expect(loginPage.isInvalidLoginErrorDisplay).toBeTruthy();
