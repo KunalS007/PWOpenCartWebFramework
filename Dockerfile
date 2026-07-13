@@ -1,4 +1,5 @@
-FROM mcr.miscrosoft.com/playwright:v1.60.0
+
+FROM mcr.microsoft.com/playwright:v1.60.0
 
 WORKDIR /app
 
@@ -9,4 +10,4 @@ RUN npm ci
 
 COPY . .
 
-CMD ["npx","playwright", "test", "--project=chromium"]
+CMD ["npx", "playwright", "test", "--project=chromium"]
