@@ -37,7 +37,7 @@ export default defineConfig({
   //     ["html", { outputFolder: "reports/html-report", open: "never" }],
   //     ["allure-playwright", { outputFolder: "allure-results", suiteTitle: true }],
   //   ],
-
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     // baseURL: 'http://localhost:3000',
