@@ -19,6 +19,9 @@ on:
           - QA
           - stage
           - Prod
+          - name: Show CPU info
+            run: echo %NUMBER_OF_PROCESSORS%
+
 
 jobs:
 
