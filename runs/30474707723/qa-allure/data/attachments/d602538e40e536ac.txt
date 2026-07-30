@@ -1,0 +1,11 @@
+Login with: abckk@yopmail.com and 12345
+Product information is :  Map(8) {
+  'productName' => 'MacBook Pro',
+  'productImagesCount' => 4,
+  'Brand' => 'Apple',
+  'Product Code' => 'Product 18',
+  'Reward Points' => '800',
+  'Availability' => 'Out Of Stock',
+  'price' => '$2,000.00',
+  'ExTaxPrice' => '$2,000.00'
+}
