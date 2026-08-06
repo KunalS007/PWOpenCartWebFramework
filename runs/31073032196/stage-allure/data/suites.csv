@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3095","@smoke do login into web application test","chromium","2026-08-06","passed","2026-08-06","","loginpagefix.spec.ts","",""
+"","2902","@smoke Headers count test","chromium","2026-08-06","passed","2026-08-06","","homepagefix.spec.ts","",""
