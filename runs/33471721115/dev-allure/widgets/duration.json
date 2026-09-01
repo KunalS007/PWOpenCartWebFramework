@@ -1,0 +1,1 @@
+[{"uid":"7443bc58af048597","name":"@smoke Headers count test","time":{"start":1788238648741,"stop":1788238652314,"duration":3573},"status":"passed","severity":"normal"},{"uid":"3db34d8204b33605","name":"@smoke do login into web application test","time":{"start":1788238648778,"stop":1788238652302,"duration":3524},"status":"passed","severity":"normal"}]
